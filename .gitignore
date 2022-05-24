@@ -3,11 +3,23 @@
 
 # 不忽略目录
 !*/
-
-# 以下写入需要 git 管理的文件后缀
-!*.jpg
-!*.md
-!*.txt
+# 不忽略自己
 !*.gitignore
 
-
+# 以下写入需要 git 管理的文件后缀 (都是图片格式的）
+!*.bmp
+!*.dib
+!*.pcp
+!*.dif
+!*.wmf
+!*.gif
+!*.jpg
+!*.tif
+!*.eps
+!*.psd
+!*.cdr
+!*.iff
+!*.tga
+!*.pcd
+!*.mpt
+!*.png
